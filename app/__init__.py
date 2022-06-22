@@ -17,7 +17,7 @@ def blog():
 
 @app.route('/aboutus/')
 def aboutUs(): 
-    return render_template('aboutUs.html', pagetitle = 'About Me')
+    return render_template('aboutus.html', pagetitle = 'About Me')
 
 @app.route('/contact-us/')
 def contactUs(): 
